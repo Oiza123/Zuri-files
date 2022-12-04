@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: auto;
+  width: 100%;
+}
+.title {
+  color: darkred;
+  letter-spacing: normal;
+  font-style: italic;
+}
+
+h1 {
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn {
+  display: block;
+  width: auto;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: darkgray;
+  text-align: center;
+}
+
+a {
+  text-decoration: solid;
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+  color: darkred;
+  letter-spacing: normal;
+  font-style: italic;
+}
+h1 {
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn {
+  width: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: solid;
+  color: brown;
+  font-weight: lighter;
+  text-align: center;
+}
+.input-f {
+  width: 50%;
+}

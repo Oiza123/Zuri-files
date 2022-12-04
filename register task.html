@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="register.css" type="text/css" />
+  </head>
+  <body>
+    <section class="form header">
+      <h1 class="title">Femme Care</h1>
+      <p>
+        <strong
+          >Find out what your body needs and responds to. <br />
+          Connect to health professionals and get 24/7 health support <br />
+          from the comfort of your home free of charge.</strong
+        >
+      </p>
+    </section>
+    <section class="form">
+      <h2 class="title">Register</h2>
+      <p>
+        <strong>
+          To join our community and become a <i>Femme care</i> member</strong
+        >
+      </p>
+      <form action="submit">
+        <div class="input-control">
+          <label for="fname"
+            ><input type="text" name="fname" placeholder="First name" required
+          /></label>
+        </div>
+        <div>
+          <label for="lname"
+            ><input
+              type="text"
+              name=""
+              id="lname-input"
+              placeholder="Last name"
+              required
+          /></label>
+        </div>
+        <div>
+          <label for="pnumber-input"
+            ><input
+              type="tel"
+              name="pnumber-input"
+              id="pnumber-input"
+              placeholder="Phone number"
+              required
+          /></label>
+        </div>
+        <div>
+          <label for="email-input"
+            ><input
+              type="email"
+              name="email-input"
+              id="email-input"
+              placeholder="Email address"
+              required
+          /></label>
+        </div>
+        <div>
+          <label for="password"
+            ><input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="New password"
+              required
+              pattern="(?#.*/d)(?#.*[a-z])(?#.*[A-Z]).(8)"
+              title="must contain at least one number and one upper case and lower case letter, and at least 8 or more characters"
+          /></label>
+        </div>
+        <div>
+          <label for="cpassword"
+            ><input
+              type="cpassword"
+              name="cpassword"
+              id="cpassword"
+              placeholder="Confirm Password"
+              required
+              pattern="(?#.*/d)(?#.*[a-z])(?#.*[A-Z]).(8)"
+              title="must contain at least one number and one upper case and lower case letter, and at least 8 or more characters"
+          /></label>
+        </div>
+        <div>
+          <p>Gender</p>
+          <input type="radio" name="gender" id="gender" required />
+          <label for="male">Male</label
+          ><input type="radio" name="gender" id="gender" required />
+          <label for="female">Female</label>
+        </div>
+        <div>
+          <label for="DOB">Date of Birth</label>
+          <input type="date" name="dob" id="dob" required />
+        </div>
+        <div>
+          <label for="fav-colour">Favourite Colour</label>
+          <input type="color" name="fav-colour" id="fav-colour" />
+        </div>
+        <p>
+          <button class="btn" type="submit">
+            <a href="success.html">Create an account</a>
+          </button>
+        </p>
+
+        <div>
+          Or click <a href="login.html">here</a> to login if you've registered.
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
